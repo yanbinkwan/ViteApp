@@ -40,7 +40,6 @@ function removeTodo(e, i) { todos.value.splice(i, 1) }
 </script>
 
 <script>
-import { ref, computed } from 'vue'
 import { useStorage } from "../utils/storage";
 
 function useTodos() {
